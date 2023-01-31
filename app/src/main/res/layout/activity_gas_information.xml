@@ -25,7 +25,7 @@
         app:shapeAppearanceOverlay="@style/Circular"
         app:strokeWidth="5dp"
         app:strokeColor="@color/skyLi
-        te"
+       
         android:scaleType="fitXY"/>
 
     <TextView
