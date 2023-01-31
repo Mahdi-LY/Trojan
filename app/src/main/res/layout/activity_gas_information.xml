@@ -24,9 +24,9 @@
         android:src="@drawable/e"
         app:shapeAppearanceOverlay="@style/Circular"
         app:strokeWidth="5dp"
-        app:strokeColor="@color/skyLi
+        app:strokeColor="@color/skyLite"
        
-        android:scaleType="fitXY"/>
+        android:scaleType="center"/>
 
     <TextView
         android:id="@+id/etGasName1"
