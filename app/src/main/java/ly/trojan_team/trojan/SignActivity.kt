@@ -1,15 +1,14 @@
 package ly.trojan_team.trojan
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
 import ly.trojan_team.trojan.databinding.ActivityMainBinding
 import ly.trojan_team.trojan.loginpage.data.entity.UserEntity
 import ly.trojan_team.trojan.loginpage.data.viewmodel.LoginViewModel
@@ -59,6 +58,8 @@ class SignActivity : AppCompatActivity() {
             val intent = Intent(applicationContext,MainActivity::class.java)
             startActivity(intent)
         }
+
+
 
 
     }
