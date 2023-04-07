@@ -24,6 +24,7 @@
         android:layout_marginTop="224dp"
         android:ems="10"
         android:hint="user name"
+
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.439"
